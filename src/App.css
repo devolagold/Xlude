@@ -1,0 +1,171 @@
+*{
+  /* outline: 1px solid red; */
+}
+
+/* Nav Bar */
+.navbar{
+  top: -3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 28px 4%;
+  transition: all 0.3s ease 0s;
+  box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.03);
+}
+
+.navbar-fixe{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgb(22, 22, 22, .93);
+  /* backdrop-filter: blur(5px); */
+}
+
+.logo{
+  cursor: pointer;
+  width: 111px;
+}
+
+.nav-link{
+  transition: all 0.3s ease 0s;
+  padding: 0;
+}
+
+.nav-item, .nav-item > a{
+  list-style: none;
+  font-size: 18px;
+  opacity: 100%;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-item > a:hover{
+  opacity: 80%;
+  text-decoration: none;
+}
+
+.nav-item{
+  display: inline-block;
+  padding: 0px 16px ;
+}
+
+.button{
+  font-size: 20px;
+  padding: 14px 24px;
+  border-radius: 10px;
+}
+
+.cta >button{
+  font-size: 16px;
+  cursor: pointer;
+  padding: 12px 16px;
+  margin-left: 16px;
+  border-radius: 5px;
+  border: none;
+  transition: all 0.3s ease 0s;
+}
+
+.cta:hover{
+  opacity: 90%;
+}
+
+.toggle-button{
+  position: absolute;
+  top: 2.0rem;
+  right: 1.45rem;
+  display: none;
+  flex-direction: column;
+  width: 24px;
+  height: 14px;
+  align-items: center;
+}
+
+.toggle-button .bar1, .toggle-button .bar2, .toggle-button .bar3{
+  height: 1.5px;
+  width: 100%;
+  border-radius: 20px;
+  transition: all 0.3s ease 0s;
+}
+
+.open{
+  transform: rotate(90deg);
+  transform: translateY(0px);
+}
+
+.bar2{
+  transform: translateY(5px);
+}
+
+.bar3{
+  transform: translateY(10px);
+}
+
+.open .bar1{
+  transform: rotate(45deg) translateY(8px) translate(6px);
+}
+
+.open .bar2{
+  transform: rotate(-45deg) translateY(0px) translate(-4px);
+}
+
+@media (max-width: 1024px) {
+  .toggle-button{
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .nav-link, .cta-button{
+      display: none;
+      margin-top: 10px;
+  }
+
+  .cta > button{
+      padding-left: 0;
+      padding-top: 18px;
+      padding-bottom: 14px;
+      margin-left: 0;
+      opacity: 60%;
+  }
+
+  .cta-button{
+      flex-direction: column;
+  }
+
+  .navbar{
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+  }
+
+  .nav-link > ul{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .nav-item{
+      padding-top: 18px;
+      padding-bottom: 14px;
+      padding-left: 0;
+  }
+
+  .nav-link.active{
+      display: flex;
+      margin-top: 10px;
+  }
+
+  .cta-button.active{
+      display: flex;
+  }
+
+  .navbar.active{
+      position: sticky;
+      z-index: 1;
+      height: 100vh;
+  }
+
+  .button-text-only{
+      padding-left: 0;
+      margin-top: -10px;
+      margin-bottom: 10px;
+  }
+}
