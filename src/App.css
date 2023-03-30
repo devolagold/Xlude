@@ -4,6 +4,19 @@
   font-family: 'Familjen Grotesk';
 }
 
+body::-webkit-scrollbar{
+  width: .5rem;
+}
+
+body::-webkit-scrollbar-track{
+  background: #110f14;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #00AB44;
+}
+
+
 /* Nav Bar */
 .navbar{
   top: -3px;
