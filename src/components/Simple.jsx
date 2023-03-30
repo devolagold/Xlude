@@ -10,7 +10,7 @@ export default function Simple() {
     })
 
     return (
-        <div className="simple flex flex-col my-8 mx-auto p-5 py-16 space-y-7 md:px-14 md:flex-col">
+        <div className="simple flex flex-col my-8 mx-auto p-5 py-16 space-y-7 md:px-8 md:flex-col lg:px-8 xl:px-14">
             <div className="space-y-4">
                 <h1 className="text-4xl leading-9 font-bold md:leading-12 md:text-left lg:text-5xl">
                     Simple, easy bill payments

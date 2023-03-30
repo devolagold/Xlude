@@ -14,7 +14,7 @@ import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <div className='font-Familjen'>
+    <>
       <Navbar/>
       <Hero/>
       <Trusted/>
@@ -27,6 +27,6 @@ export default function App() {
       <Analytics/>
       <CallToAction/>
       <Footer/>
-    </div>
+    </>
   )
 }

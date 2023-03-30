@@ -4,55 +4,55 @@ export default function Footer() {
     let currentYear = new Date().getFullYear()
     
     return (
-        <div className="flex flex-col bg-black py-10 mx-auto p-5 md:px-14">
+        <div className="flex flex-col bg-black py-10 mx-auto p-5 md:px-8 lg:px-8 xl:px-14">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-0 gap-y-6">
                 <div className="about-us flex flex-col text-white space-y-3">
-                    <h1 className="text-primary font-bold text-2xl md:text-3xl">About Us</h1>
-                    <a href="#" className="footer-text md:text-lg font-light pt-3">Company</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Press</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Careers</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Ambassadors</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Privacy</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Terms</a>
+                    <h1 className="text-primary font-bold text-2xl md:text-2xl">About Us</h1>
+                    <a href="#" className="footer-text md:text-base font-light pt-3">Company</a>
+                    <a href="#" className="footer-text md:text-base font-light">Press</a>
+                    <a href="#" className="footer-text md:text-base font-light">Careers</a>
+                    <a href="#" className="footer-text md:text-base font-light">Ambassadors</a>
+                    <a href="#" className="footer-text md:text-base font-light">Privacy</a>
+                    <a href="#" className="footer-text md:text-base font-light">Terms</a>
                 </div>
 
                 <div className="about-us flex flex-col text-white space-y-3">
-                    <h1 className="text-primary font-bold text-2xl md:text-3xl">Information</h1>
-                    <a href="#" className="footer-text md:text-lg font-light pt-3">Copyright</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Pricing</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Jobs</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Business</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Embed API</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Media</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Security</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Got a Suggestion?</a>
+                    <h1 className="text-primary font-bold text-2xl md:text-2xl">Information</h1>
+                    <a href="#" className="footer-text md:text-base font-light pt-3">Copyright</a>
+                    <a href="#" className="footer-text md:text-base font-light">Pricing</a>
+                    <a href="#" className="footer-text md:text-base font-light">Jobs</a>
+                    <a href="#" className="footer-text md:text-base font-light">Business</a>
+                    <a href="#" className="footer-text md:text-base font-light">Embed API</a>
+                    <a href="#" className="footer-text md:text-base font-light">Media</a>
+                    <a href="#" className="footer-text md:text-base font-light">Security</a>
+                    <a href="#" className="footer-text md:text-base font-light">Got a Suggestion?</a>
                 </div>
 
                 <div className="about-us flex flex-col text-white space-y-3">
-                    <h1 className="text-primary font-bold text-2xl md:text-3xl">Learn</h1>
-                    <a href="#" className="footer-text md:text-lg font-light pt-3">Blog</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Guides</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Video Tutorials</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Commerce</a>
-                    <a href="#" className="footer-text md:text-lg font-light">FAQs</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Careers</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Customer Stories</a>
+                    <h1 className="text-primary font-bold text-2xl md:text-2xl">Learn</h1>
+                    <a href="#" className="footer-text md:text-base font-light pt-3">Blog</a>
+                    <a href="#" className="footer-text md:text-base font-light">Guides</a>
+                    <a href="#" className="footer-text md:text-base font-light">Video Tutorials</a>
+                    <a href="#" className="footer-text md:text-base font-light">Commerce</a>
+                    <a href="#" className="footer-text md:text-base font-light">FAQs</a>
+                    <a href="#" className="footer-text md:text-base font-light">Careers</a>
+                    <a href="#" className="footer-text md:text-base font-light">Customer Stories</a>
                 </div>
 
                 <div className="about-us flex flex-col text-white space-y-3">
-                    <h1 className="text-primary font-bold text-2xl md:text-3xl">Support</h1>
-                    <a href="#" className="footer-text md:text-lg font-light pt-3">support@xlude.com</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Help Desk</a>
-                    <a href="#" className="footer-text md:text-lg font-light">Why was I debited?</a>
+                    <h1 className="text-primary font-bold text-2xl md:text-2xl">Support</h1>
+                    <a href="#" className="footer-text md:text-base font-light pt-3">support@xlude.com</a>
+                    <a href="#" className="footer-text md:text-base font-light">Help Desk</a>
+                    <a href="#" className="footer-text md:text-base font-light">Why was I debited?</a>
                 </div>
             </div>
             <div className="flex flex-col items-center space-y-4 space-x-0 pt-12 md:flex-row md:justify-between md:space-y-0">
                 <div className="flex flex-col space-y-4 space-x-5 items-center text-primary md:flex-row md:space-y-0">
                     <img src={logo}/>
-                    <h3 className='text-lg text-center'>Copyright © <span>{currentYear}</span> Xlude — All Rights Reserved.</h3>
+                    <h3 className='text-lg md:text-base xl:text-lg text-center'>Copyright © <span>{currentYear}</span> Xlude — All Rights Reserved.</h3>
                 </div>
 
-                <div className="socials flex space-x-4 pt-3 md:pt-0">
+                <div className="socials flex space-x-4 pt-3 md:pt-0 md:space-x-2 xl:space-x-4">
                     <a href="#" className="footer-text">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5.53202 5.207C8.30352 5.069 10.459 5 11.999 5C13.539 5 15.6955 5.069 18.4685 5.2075C19.1942 5.24372 19.882 5.54203 20.4043 6.04706C20.9266 6.55208 21.2479 7.22949 21.3085 7.9535C21.4355 9.4705 21.499 10.8065 21.499 11.962C21.499 13.1315 21.434 14.486 21.304 16.026C21.2437 16.7417 20.9285 17.412 20.4159 17.9151C19.9033 18.4181 19.2272 18.7206 18.5105 18.7675C16.14 18.9225 13.9695 19 11.999 19C10.029 19 7.85902 18.9225 5.49002 18.7675C4.77356 18.7206 4.09766 18.4184 3.58507 17.9156C3.07249 17.4129 2.75722 16.7429 2.69652 16.0275C2.56502 14.476 2.49902 13.1205 2.49902 11.962C2.49902 10.817 2.56352 9.4805 2.69152 7.952C2.75236 7.22817 3.07376 6.551 3.59605 6.04618C4.11834 5.54136 4.80605 5.24319 5.53152 5.207H5.53202Z" stroke="#00AB44" strokeWidth="2" strokeLinecap="round"/>
