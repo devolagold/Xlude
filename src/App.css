@@ -1,5 +1,6 @@
 *{
   /* outline: 1px solid red; */
+  scroll-behavior: smooth;
 }
 
 /* Nav Bar */
@@ -9,17 +10,22 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 28px 4%;
+  padding: 32px 4%;
   transition: all 0.3s ease 0s;
-  box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.05);
 }
 
-.navbar-fixe{
+.navbar-fixed{
   position: fixed;
-  top: 0;
+  top: -1px;
   left: 0;
-  background: rgb(22, 22, 22, .93);
-  /* backdrop-filter: blur(5px); */
+  background: #110f14d8;
+  color: #FFFFFF !important;
+  backdrop-filter: blur(15px);
+}
+
+.navbar-fixed .toggle-button .bar1, .navbar-fixed .toggle-button .bar2{
+  background-color: #FFFFFF;
 }
 
 .logo{
@@ -36,7 +42,7 @@
   list-style: none;
   font-size: 18px;
   opacity: 100%;
-  transition: all 0.3s ease 0s;
+  /* transition: all 0.01s ease 0s; */
 }
 
 .nav-item > a:hover{
@@ -53,6 +59,12 @@
   font-size: 20px;
   padding: 14px 24px;
   border-radius: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.button:hover{
+  opacity: 90%;
+  /* filter: drop-shadow(0 0 8px #00ab4428); */
 }
 
 .cta >button{
@@ -108,10 +120,38 @@
   transform: rotate(-45deg) translateY(0px) translate(-4px);
 }
 
+.simple{
+  background-image: url(./assets/service-bg.svg);
+}
+
+.card{
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.grow-big:hover{
+  transition: all 0.2s ease 0s;
+  padding: 1px;
+}
+
+.cta{
+  background-image: url(./assets/cta-bg.svg);
+}
+
+.footer-text:hover{
+  opacity: 80%;
+  transition: all 0.2s ease 0s;
+}
+
 @media (max-width: 1024px) {
   .toggle-button{
       display: flex;
       justify-content: space-around;
+      top: 1.8rem;
+  }
+
+  .toggle-button.open{
+      height: 14px;
   }
 
   .nav-link, .cta-button{
@@ -135,6 +175,7 @@
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-start;
+      padding: 24px 4%;
   }
 
   .nav-link > ul{
@@ -159,8 +200,9 @@
 
   .navbar.active{
       position: sticky;
-      z-index: 1;
+      z-index: 1000;
       height: 100vh;
+      background-color: #FFFFFF;
   }
 
   .button-text-only{
