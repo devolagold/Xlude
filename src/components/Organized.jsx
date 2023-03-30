@@ -2,7 +2,7 @@ import image from '../assets/Organized Section Image.png'
 export default function Organized() {
     return (
         <div className="flex flex-col-reverse my-8 items-center mx-auto p-5 space-y-7 md:space-x-7 md:px-8 md:flex-row lg:px-8 xl:px-14">
-            <div className="md:w-1/2 mt-8 md:mt-0 grow-big">
+            <div className="md:w-1/2 mt-8 md:mt-0 grow-big" data-aos="fade-right">
                 <img src={image} alt="" className='w-100' />
             </div>
 

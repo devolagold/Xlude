@@ -1,7 +1,7 @@
 export default function CallToAction() {
     return (
         <div className="cta flex flex-col mt-8 py-14 items-center md:justify-between mx-auto p-5 space-y-4 md:space-x-16 md:px-8 lg:px-8 xl:px-14 md:flex md:flex-row">
-            <div className="flex flex-col space-y-3 items-center md:items-start">
+            <div className="flex flex-col space-y-3 items-center md:items-start" data-aos='fade-up'>
                 <p className='text-lg text-primary leading-5 tracking-tighter lg:text-xl md:text-left'>
                     Try Xlude Now
                 </p>

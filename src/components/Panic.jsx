@@ -11,7 +11,7 @@ export default function Panic() {
                 </p>
             </div>
             
-            <div className="">
+            <div data-aos="fade-right">
                 <img src={panic} alt="" />
             </div>
         </div>

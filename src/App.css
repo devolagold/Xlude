@@ -4,6 +4,10 @@
   font-family: 'Familjen Grotesk';
 }
 
+body{
+  overflow-x: hidden;
+}
+
 body::-webkit-scrollbar{
   width: .5rem;
 }
@@ -33,7 +37,7 @@ body::-webkit-scrollbar-thumb{
   position: fixed;
   top: -1px;
   left: 0;
-  background: #110f14d8;
+  background: #110f14da;
   color: #FFFFFF !important;
   backdrop-filter: blur(15px);
 }
@@ -163,8 +167,6 @@ body::-webkit-scrollbar-thumb{
   animation-name: slideInRight;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
   }
   @-webkit-keyframes slideInRight {
   0% {

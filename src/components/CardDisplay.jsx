@@ -10,7 +10,7 @@ export default function CardDisplay() {
                 With Xlude's secure payment processing, you can rest assured <br className='hidden xl:block' /> that your card information is safe and protected.
                 </p>
             </div>
-            <div className="md:w-1/2 grow-big">
+            <div className="md:w-1/2 grow-big" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                 <img src={image} alt="" />
             </div>
         </div>

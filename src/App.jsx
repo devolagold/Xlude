@@ -1,3 +1,6 @@
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import './App.css'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -13,6 +16,10 @@ import CallToAction from './components/CallToAction'
 import Footer from './components/Footer'
 
 export default function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
+
   return (
     <>
       <Navbar/>
