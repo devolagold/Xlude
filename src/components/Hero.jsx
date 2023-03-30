@@ -12,7 +12,7 @@ export default function Hero() {
                 </div>
             </div>
             <div className="md:w-1/2 grow-big">
-                <img src={heroImage} alt="" />
+                <img src={heroImage} alt="Hero-Image"/>
             </div>
         </div>
     )
