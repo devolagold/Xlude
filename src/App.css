@@ -4,11 +4,6 @@
   font-family: 'Familjen Grotesk';
 }
 
-body{
-  /* overflow-x: hidden; */
-  /* overflow-y: hidden; */
-}
-
 body::-webkit-scrollbar{
   width: .5rem;
 }
