@@ -246,17 +246,29 @@ body::-webkit-scrollbar-thumb{
   }
 
   .navbar.active{
-    /* position: sticky;
-    right: 0;
-    left: 0;
-    top: 0;
-    background-color: #FFFFFF;
+    width: 100vw;
     height: 100vh;
-    z-index: 1000; */
-      position: sticky;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+      /* position: sticky;
       z-index: 1000;
       height: 100vh;
+      background-color: #FFFFFF; */
       background-color: #FFFFFF;
+  }
+
+  .navbar-fixed .toggle-button.open .bar1, .navbar-fixed .toggle-button.open .bar2{
+    background-color: #110f14;
+  }
+
+  .navbar-fixed .toggle-button .bar1, .navbar-fixed .toggle-button .bar2{
+    background-color: #FFFFFF;
+  }
+
+  .navbar.active .nav-link{
+    color: #110f14 !important;
   }
 
   .button-text-only{

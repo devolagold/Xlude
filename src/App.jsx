@@ -25,9 +25,9 @@ export default function App() {
       <Navbar/>
       <Hero/>
       <Trusted/>
-      <Organized/>
-      <Experience/>
-      <Simple/>
+      {/* <Organized/> */}
+      {/* <Experience/> */}
+      {/* <Simple/> */}
       <Difference/>
       <Panic/>
       <CardDisplay/>
