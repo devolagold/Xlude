@@ -1,6 +1,5 @@
 import logo from '../assets/logo.svg'
 import { useRef, useEffect } from 'react'
-// import '../js/script'
 
 export default function Navbar(){
     const ref = useRef(null)
