@@ -23,11 +23,11 @@ export default function App() {
   return (
     <>
       <Navbar/>
-      <Hero/>
-      <Trusted/>
-      <Organized/>
-      <Experience/>
-      <Simple/>
+      {/* <Hero/> */}
+      {/* <Trusted/> */}
+      {/* <Organized/> */}
+      {/* <Experience/> */}
+      {/* <Simple/> */}
       <Difference/>
       <Panic/>
       <CardDisplay/>
