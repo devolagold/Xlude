@@ -17,7 +17,7 @@ export default function Experience() {
                  </p>
             </div>
 
-            <div className="md:w-1/2 grow-big" data-aos="fade-up">
+            <div className="md:w-1/2 grow-big" data-aos="fade-right">
                 <img src={image} alt="" />
              </div>
         </div>

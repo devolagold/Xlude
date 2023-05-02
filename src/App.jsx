@@ -25,10 +25,10 @@ export default function App() {
       <Navbar/>
       <Hero/>
       <Trusted/>
-      {/* <Organized/> */}
-      {/* <Experience/> */}
-      {/* <Simple/> */}
-      <Difference/>
+      <Organized/>
+      <Experience/>
+      <Simple/>
+      {/* <Difference/> */}
       <Panic/>
       <CardDisplay/>
       <Analytics/>
