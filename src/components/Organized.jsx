@@ -12,7 +12,7 @@ export default function Organized() {
                 </h1>
                 
                 <p className='text-base leading-5 tracking-tighter lg:text-xl md:text-left'>
-                    Ultimate bill payment platform for the modern age. Our sleek <br className='md:hidden xl:block' /> and user-friendly interface allows you to easily manage <br className='md:hidden xl:block' /> all your bills in one place.
+                    Ultimate bill payment platform for the modern age. Our sleek and user-friendly interface allows you to easily manage all your bills in one place.
                 </p>
                 
                 <button className="button bg-primary text-white text-base font-medium lg:text-lg">Learn More</button>
