@@ -28,7 +28,7 @@ export default function App() {
       <Organized/>
       <Experience/>
       <Simple/>
-      {/* <Difference/> */}
+      <Difference/>
       <Panic/>
       <CardDisplay/>
       <Analytics/>

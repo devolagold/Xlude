@@ -13,8 +13,7 @@ export default function CardDisplay() {
 
             <div className="md:w-1/2 mt-8 md:mt-0 grow-big" data-aos='fade-up'>
                 <img src={image} alt="" className='w-100' />
-            </div>
-            
+            </div>   
         </div>
         // <div className="flex flex-col items-center mx-auto p-5 space-y-7 md:space-x-7 md:px-8 lg:px-8 xl:px-14 md:flex-row">
         //     <div className="flex flex-col space-y-3 md:item-left md:w-1/2 md:items-start md:space-y-4">
