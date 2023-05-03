@@ -1,7 +1,7 @@
 export default function Card(props) {
     
     return (
-        <div className="card flex flex-col space-y-16 px-5 py-8 bg-grey-2 hover:bg-black hover:text-white md:w-1/3 rounded-[10px]">
+        <div className="card flex flex-col space-y-16 px-5 py-8 bg-grey-2 hover:bg-black hover:text-white md:w-1/3 rounded-[10px]"  data-aos='fade-up'>
             <div className="icon bg-primary w-fit p-3 rounded-full md:w-1/4 xl:w-max">
                 <img src={props.icon} width="30px" />
             </div>

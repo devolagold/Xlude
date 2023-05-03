@@ -8,7 +8,7 @@ import Trusted from './components/Trusted'
 import Organized from './components/Organized'
 import Experience from './components/Experience'
 import Simple from './components/Simple'
-// import Difference from './components/Difference'
+import Difference from './components/Difference'
 import Panic from './components/Panic'
 import CardDisplay from './components/CardDisplay'
 import Analytics from './components/Analytics'
@@ -28,7 +28,7 @@ export default function App() {
       <Organized/>
       <Experience/>
       <Simple/>
-      {/* <Difference/> */}
+      <Difference/>
       <Panic/>
       <CardDisplay/>
       <Analytics/>

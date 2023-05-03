@@ -1,6 +1,5 @@
 import heroImage from '../assets/Hero Image.png'
 
-
 export default function Hero() {
     
     return(
